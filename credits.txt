@@ -1,0 +1,37 @@
+Credits and thanks for Project Akanoid (in random order):
+
+*Blizzard Entertainment for StarCraft - it gave me alot of ideas, including String Tables, with the same
+format as Blizzard`s.
+
+*Dark Wizzard and ShadowFlare for specifications of Blizzard`s TBL format.
+*Additional thanks to ShadowFlare for her TBL Edit, which was very useful during the creation process.
+
+*Thanks to all authors of Game Programming Gems series.
+*Thanks to entire GameDev.net for all tutorials, articles and forum support.
+*Thanks to warsztat.pac.pl and Advanced Game Programming (agp.prv.pl) for tutorials, arts, forums, and lot more.
+*Thanks to warsztat`s competition series "Compo".
+*Thanks to "Komputer Swiat Ekspert" magazine.
+
+*Thanks to Nickel for his support.
+*Thanks to Stanislaw Wawszczak for debugging and technical support.
+
+			ALPHA VESRSION TESTERS
+
+*Jan "CykloHexan" Fuerst
+*Piotr "Nickel" Piecyk
+*Stanislaw Wawszczak
+
+Music listened during development process:
+(yup, they`re mostly all about StarCraft :D)
+-> StarCraft - Techno Mix
+-> The 12 Days O X-Mas by Blizzard Entertainment
+-> With Marines
+-> Brood War Intro by Blizzard Entertainment
+-> StarCraft - Terran Wannabe
+-> StarCraft - Play That Funky Music Terran Boy
+-> MoonShadow - Ghost Dark Rave
+-> MoonShadow - The Few, the Proud, the Expendable Marines (starcraft)
+-> matt huber - Nuclear Launch Detected Techno
+
+All right, these are not StarCraft. They are StarTrek!
+-> Star Trek : First Contact music

@@ -1,0 +1,9 @@
+#+title: Arkanoid
+#+startup: hidestars
+
+/This game is a piece of ancient history; I worked on that circa 2004./
+
+Dump of the code (and executables) of the very first game I ever wrote - a simple 2D Arkanoid.
+
+Not much of interest here, except maybe using StarCraft string table binary format for storing localizable text for this game
+(complete with coloring parts of strings).

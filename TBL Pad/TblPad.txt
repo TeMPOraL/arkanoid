@@ -1,0 +1,27 @@
+------------
+TblPad v1.10
+------------
+
+This program edits tbl files.  It has a few more features
+than the TBL editor with StarDraft.  You can add/remove
+entries, change order of entries, cut/copy/paste entries,
+create a new tbl file, and search for text strings in all
+the entries.
+
+What's New
+----------
+
+1.10
+----------
+- Fixed bug with saving over a text file.
+- Added a key combination for adding entries.
+- Key combinations for Cut, Copy, and Paste can be used
+  in the textbox.
+
+1.00
+----------
+- Initial Release
+
+-ShadowFlare
+ email:    BlakFlare@hotmail.com
+ web page: http://shadowflare.ancillaediting.net/

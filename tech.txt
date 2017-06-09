@@ -1,0 +1,56 @@
+This is an Arkanoid`s Tech Sheet that describes some of used data formats and utilities
+
+
+String Tables - Arkanoid uses the same format, that Blizzard used in StarCraft, thus to create them I used
+a program called TblPad, originally designed for StarCraft. TblPad was made by ShadowFlare [blakflare@hotmail.com];
+see Readme from TblPad and credits.txt for more info.
+
+TBL Format
+
+WORD - number of string entries
+WORD [number of entries] - offset to string
+Strings
+
+LEVEL Format
+
+Arkanoid Level Files, a.k.a. *.alv format specification:
+
+BYTE [4] - magic number
+DWORD - level version
+DWORD - verification code
+DWORD - offset to End Of File
+BYTE [64] - Level Name
+BYTE [64] - Next level file name
+DWORD - initial brick count
+STRUCT BRICKDATA
+{
+	DWORD - Brick ID
+	DWORD - Brick x position
+	DWORD - Brick y position
+} [initial brick count]
+DWORD - Brick Override Table size
+STRUCT BRICKOVERRIDETABLE
+{
+	DWORD - Brick Type
+	DWORD - New Brick Health
+	DWORD - New Brick Score
+} [Brick Override Table Size]
+DATA OVERRIDE STRING TABLE
+
+
+OBSOLETE - USAGE OF THIS FORMAT WAS ABORTED DUE TO FEW TROUBLES
+Graphics Format - Arkanoid uses simple graphics format to represent animated images. GRP format consists of
+two sections - Header and Image Data.
+
+GRP Format:
+
+BYTE [4] - magic number
+DWORD - image version ID
+DWORD - verification code
+BYTE [64] - original image name
+DWORD - number of horizontal frames
+DWORD - number of vertcal frames
+DWORD - offset to beginning of image data
+DWORD - offset to end of image data
+=========================================
+Image data - here goes everything, that is in normal graphics file - headers, etc.

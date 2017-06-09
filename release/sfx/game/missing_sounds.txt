@@ -1,0 +1,5 @@
+./pause.wav
+./destroy.wav
+./victory.wav
+./defeat.wav
+./bounce.wav

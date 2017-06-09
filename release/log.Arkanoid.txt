@@ -1,0 +1,380 @@
+[Log file opened at: 04/14/07 17:21:12]
+[======================================================]
+[Logging unit created for TSW                          ]
+[By Jacek "TeMPOraL" Zlydach                           ]
+[======================================================]
+CGame::Init() - Initializing Game
+-> Application`s Instance Handle (HINSTANCE): 00400000
+-> Command line parameters:
+
+-> Loading System String Table
+CStringTable::Init() - initializing from file system_txt.tbl
+CStringTable::LoadTable() - Number of strings loaded: 16
+-> Loading Game Text String Table
+CStringTable::Init() - initializing from file stat_txt.tbl
+CStringTable::LoadTable() - Number of strings loaded: 14
+-> Loading Data Files String Table
+CStringTable::Init() - initializing from file data.tbl
+CStringTable::LoadTable() - Number of strings loaded: 13
+-> Initializing Game Window
+CWindow::Init() - trying to create GL Window at width: 800 height: 600 bits per pixel: 16 mode: full screen
+CWindow::Init() - Filling window class data...
+CWindow::Init() - Device Context aquired
+CWindow::Init() - Choosed Pixel Format
+CWindow::Init() - Set Pixel Format
+CWindow::Init() - Created Rendering Context
+CWindow::Init() - Activated Rendering Context
+CWindow::Init() - OpenGL Initialization Successful
+CWindow::Init() - Window Initialization Successful
+-> Initializing High Resolution Timer
+-> Initializing Pseudo-Random Number Generator
+-> Initializing Input
+CKeyboard::Init() - Initializing Keyboard
+CKeyboard::Init() - Keyboard initialized successfuly
+-> Initializing Audio
+CAudio::Init() - Initializing FMOD Audio
+-> Initializing Game State Manager
+CGameStateMgr::Init() - Initializing Game State Manager
+-> Initializing Sprite Manager
+CSpriteMgr::Init() - initializing Sprite Manager
+		..::End of Game Initialization::..
+CGame::Execute() - Game started
+CIntro::Init() - initializing Intro game state
+CSprite::Load() - Loading image gfx\tslogo.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 256 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\tslogo.bmp] at position 1)
+CSprite::Load() - Loading image gfx\arklogo.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\arklogo.bmp] at position 2)
+CIntro::Update() - User requested to skip intro by pressing Space or Enter
+CIntro::DeInit() - deinitializing Intro game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CMainMenu::Init() - initializing Main Menu game state
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CAudio::LoadSound() - loaded sound [sfx\menu\select.wav] at position 0
+CAudio::LoadSound() - loaded sound [sfx\menu\acknowledge.wav] at position 1
+CMainMenu::Update() - user selected to enter Gravity Game mode
+CMainMenu::DeInit() - deinitializing Intro game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CGravityGame::Init() - initializing Test game state
+CObjectManager::Init() - initializing Object Manager
+CStringTable::Init() - initializing from file stat_txt.tbl
+CStringTable::LoadTable() - Number of strings loaded: 14
+CAudio::LoadSound() - loaded sound [sfx\game\victory.wav] at position 2
+CAudio::LoadSound() - loaded sound [sfx\game\defeat.wav] at position 3
+[!! CAudio::LoadSound() - Error loading sound [sfx\game\gameover.wav] !!]
+CAudio::LoadSound() - loaded sound [sfx\game\bounce.wav] at position 4
+CAudio::LoadSound() - loaded sound [sfx\game\destroy.wav] at position 5
+CAudio::LoadSound() - loaded sound [sfx\game\pause.wav] at position 6
+CAudio::LoadMusic() - loaded music [sfx\game\music1.mid] at position 0
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CSprite::Load() - Loading image gfx\paddle.bmp
+CSprite::LoadBMP() - Image widht: 128 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\paddle.bmp] at position 2)
+CSprite::Load() - Loading image gfx\ball.bmp
+CSprite::LoadBMP() - Image widht: 32 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\ball.bmp] at position 3)
+CSprite::Load() - Loading image gfx\normal_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\normal_brick.bmp] at position 4)
+CSprite::Load() - Loading image gfx\hardened_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\hardened_brick.bmp] at position 5)
+CObjectManager::Update() - collision between ball [Position:V2(X: 482.271 Y: 124.826)] and brick [Position:V2(X: 475 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 481.226 Y: 116.261)] and brick [Position:V2(X: 475 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 482.026 Y: 122.604)] and brick [Position:V2(X: 475 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 482.824 Y: 129.1)] and brick [Position:V2(X: 475 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 546.664 Y: 137.503)] and brick [Position:V2(X: 525 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 613.103 Y: 141.883)] and brick [Position:V2(X: 625 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 682.351 Y: 138.659)] and brick [Position:V2(X: 675 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 753.795 Y: 137.742)] and brick [Position:V2(X: 725 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 517.701 Y: 105.799)] and brick [Position:V2(X: 525 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 667.5 Y: 105.325)] and brick [Position:V2(X: 675 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 756.953 Y: 122.306)] and brick [Position:V2(X: 775 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 759.637 Y: 113.955)] and brick [Position:V2(X: 775 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 757.581 Y: 120.14)] and brick [Position:V2(X: 775 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 755.52 Y: 126.503)] and brick [Position:V2(X: 775 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 589.066 Y: 141.253)] and brick [Position:V2(X: 575 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 432.258 Y: 139.052)] and brick [Position:V2(X: 425 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 282.264 Y: 141.691)] and brick [Position:V2(X: 275 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 115.982 Y: 124.697)] and brick [Position:V2(X: 125 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 118.718 Y: 116.599)] and brick [Position:V2(X: 125 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 74.9532 Y: 139.66)] and brick [Position:V2(X: 75 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 255.629 Y: 138.456)] and brick [Position:V2(X: 225 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 447.724 Y: 116.173)] and brick [Position:V2(X: 425 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 637.42 Y: 140.617)] and brick [Position:V2(X: 625 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 755.391 Y: 94.1742)] and brick [Position:V2(X: 725 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 552.907 Y: 113.299)] and brick [Position:V2(X: 575 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 380.578 Y: 141.739)] and brick [Position:V2(X: 375 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 217.948 Y: 113.212)] and brick [Position:V2(X: 225 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 60.3385 Y: 115.865)] and brick [Position:V2(X: 75 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 57.1188 Y: 128.412)] and brick [Position:V2(X: 25 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 55.5016 Y: 134.959)] and brick [Position:V2(X: 25 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 53.8955 Y: 141.624)] and brick [Position:V2(X: 25 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 100.128 Y: 88.3351)] and brick [Position:V2(X: 75 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 242.547 Y: 107.281)] and brick [Position:V2(X: 275 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 388.49 Y: 115.075)] and brick [Position:V2(X: 375 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 373.829 Y: 91.1491)] and brick [Position:V2(X: 375 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 375.365 Y: 63.7145)] and brick [Position:V2(X: 375 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 405.705 Y: 91.7691)] and brick [Position:V2(X: 425 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 473.005 Y: 89.0069)] and brick [Position:V2(X: 475 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 573.835 Y: 90.1478)] and brick [Position:V2(X: 575 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 710.826 Y: 90.1985)] and brick [Position:V2(X: 725 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 708.904 Y: 63.4092)] and brick [Position:V2(X: 725 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 707.282 Y: 68.1517)] and brick [Position:V2(X: 675 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 549.967 Y: 92.4384)] and brick [Position:V2(X: 525 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 393.381 Y: 63.8769)] and brick [Position:V2(X: 375 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 357.291 Y: 100.726)] and brick [Position:V2(X: 325 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 355.835 Y: 112.826)] and brick [Position:V2(X: 325 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 355.108 Y: 119.105)] and brick [Position:V2(X: 325 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 354.384 Y: 125.531)] and brick [Position:V2(X: 325 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 281.97 Y: 78.0609)] and brick [Position:V2(X: 275 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 223.744 Y: 91.4121)] and brick [Position:V2(X: 225 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 497.523 Y: 65.3705)] and brick [Position:V2(X: 475 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 364.218 Y: 51.5991)] and brick [Position:V2(X: 375 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 295.977 Y: 91.1985)] and brick [Position:V2(X: 325 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 292.513 Y: 66.6161)] and brick [Position:V2(X: 275 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 143.994 Y: 141.328)] and brick [Position:V2(X: 175 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 20.2695 Y: 114.155)] and brick [Position:V2(X: 25 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 177.647 Y: 142.202)] and brick [Position:V2(X: 175 Y: 125) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 175.193 Y: 133.263)] and brick [Position:V2(X: 175 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 476.662 Y: 67.4011)] and brick [Position:V2(X: 475 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 578.107 Y: 64.5788)] and brick [Position:V2(X: 575 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 675.915 Y: 62.2471)] and brick [Position:V2(X: 675 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 674.698 Y: 55.6824)] and brick [Position:V2(X: 675 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 676.569 Y: 64.6641)] and brick [Position:V2(X: 675 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 774.037 Y: 87.1275)] and brick [Position:V2(X: 775 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 709.404 Y: 66.7718)] and brick [Position:V2(X: 725 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 617.364 Y: 140.404)] and brick [Position:V2(X: 625 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 543.879 Y: 66.4228)] and brick [Position:V2(X: 525 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 475.743 Y: 65.4961)] and brick [Position:V2(X: 475 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 407.186 Y: 64.6109)] and brick [Position:V2(X: 425 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 337.666 Y: 63.7205)] and brick [Position:V2(X: 325 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 270.189 Y: 64.1734)] and brick [Position:V2(X: 275 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 207.425 Y: 76.6088)] and brick [Position:V2(X: 175 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 206.198 Y: 87.7)] and brick [Position:V2(X: 175 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 149.38 Y: 88.5719)] and brick [Position:V2(X: 125 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 117.886 Y: 62.9142)] and brick [Position:V2(X: 125 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 109.265 Y: 64.1729)] and brick [Position:V2(X: 125 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 353.748 Y: 63.1463)] and brick [Position:V2(X: 325 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 323.964 Y: 66.3446)] and brick [Position:V2(X: 325 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 294.93 Y: 67.4542)] and brick [Position:V2(X: 275 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 257.436 Y: 45.3463)] and brick [Position:V2(X: 225 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 257.077 Y: 48.538)] and brick [Position:V2(X: 225 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 256.72 Y: 51.8811)] and brick [Position:V2(X: 225 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 207.468 Y: 36.3)] and brick [Position:V2(X: 175 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 207.111 Y: 40.1735)] and brick [Position:V2(X: 175 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 206.761 Y: 44.1358)] and brick [Position:V2(X: 175 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 523.337 Y: 63.8961)] and brick [Position:V2(X: 525 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 714.93 Y: 66.9225)] and brick [Position:V2(X: 725 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 652.765 Y: 50.1506)] and brick [Position:V2(X: 625 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 655.345 Y: 45.0001)] and brick [Position:V2(X: 625 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 653.359 Y: 48.7544)] and brick [Position:V2(X: 625 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 647.377 Y: 61.0458)] and brick [Position:V2(X: 625 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 637.436 Y: 84.7311)] and brick [Position:V2(X: 625 Y: 100) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 131.052 Y: 67.2352)] and brick [Position:V2(X: 125 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 10.4282 Y: 87.8468)] and brick [Position:V2(X: 25 Y: 75) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 417.278 Y: 35.0096)] and brick [Position:V2(X: 425 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 419.056 Y: 38.5821)] and brick [Position:V2(X: 425 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 574.844 Y: 33.8482)] and brick [Position:V2(X: 575 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 572.669 Y: 37.34)] and brick [Position:V2(X: 575 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 557.401 Y: 66.4123)] and brick [Position:V2(X: 525 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 62.6098 Y: 64.1517)] and brick [Position:V2(X: 75 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 780.725 Y: 62.9409)] and brick [Position:V2(X: 775 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 767.027 Y: 55.445)] and brick [Position:V2(X: 775 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 769.886 Y: 50.1712)] and brick [Position:V2(X: 775 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 107.347 Y: 52.6814)] and brick [Position:V2(X: 75 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 105.036 Y: 56.6561)] and brick [Position:V2(X: 75 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 26.3798 Y: 65.6762)] and brick [Position:V2(X: 25 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 10.9811 Y: 63.8293)] and brick [Position:V2(X: 25 Y: 50) bVisible:true bCollide:true
+CObjectManager::Update() - collision between ball [Position:V2(X: 37.4191 Y: 62.8086)] and brick [Position:V2(X: 25 Y: 50) bVisible:true bCollide:true
+Deleting an object
+CGravityGame::DeInit() - deinitializing Test game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CObjectManager::DeInit() - deinitializing Object Manager
+CMainMenu::Init() - initializing Main Menu game state
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CMainMenu::Update() - user selected to enter Time Attack Game mode
+CMainMenu::DeInit() - deinitializing Intro game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CTimeAttackGame::Init() - initializing Time Attack Game state
+CObjectManager::Init() - initializing Object Manager
+CStringTable::Init() - initializing from file stat_txt.tbl
+CStringTable::LoadTable() - Number of strings loaded: 14
+[!! CAudio::LoadSound() - Error loading sound [sfx\game\gameover.wav] !!]
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CSprite::Load() - Loading image gfx\paddle.bmp
+CSprite::LoadBMP() - Image widht: 128 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\paddle.bmp] at position 2)
+CSprite::Load() - Loading image gfx\ball.bmp
+CSprite::LoadBMP() - Image widht: 32 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\ball.bmp] at position 3)
+CSprite::Load() - Loading image gfx\normal_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\normal_brick.bmp] at position 4)
+CSprite::Load() - Loading image gfx\hardened_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\hardened_brick.bmp] at position 5)
+CTimeAttackGame::DeInit() - deinitializing Time Attack Game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CObjectManager::DeInit() - deinitializing Object Manager
+CMainMenu::Init() - initializing Main Menu game state
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CMainMenu::Update() - user selected to enter Time Attack Game mode
+CMainMenu::DeInit() - deinitializing Intro game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CSurvivalGame::Init() - initializing Survival Game state
+CObjectManager::Init() - initializing Object Manager
+CStringTable::Init() - initializing from file stat_txt.tbl
+CStringTable::LoadTable() - Number of strings loaded: 14
+[!! CAudio::LoadSound() - Error loading sound [sfx\game\gameover.wav] !!]
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CSprite::Load() - Loading image gfx\paddle.bmp
+CSprite::LoadBMP() - Image widht: 128 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\paddle.bmp] at position 2)
+CSprite::Load() - Loading image gfx\ball.bmp
+CSprite::LoadBMP() - Image widht: 32 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\ball.bmp] at position 3)
+CSprite::Load() - Loading image gfx\normal_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\normal_brick.bmp] at position 4)
+CSprite::Load() - Loading image gfx\hardened_brick.bmp
+CSprite::LoadBMP() - Image widht: 64 height: 32 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [gfx\hardened_brick.bmp] at position 5)
+CObjectManager::Update() - collision between ball [Position:V2(X: 388.525 Y: 138.537)] and brick [Position:V2(X: 375 Y: 125) bVisible:true bCollide:true
+Deleting an object
+CObjectManager::Update() - collision between ball [Position:V2(X: 324.367 Y: 142.386)] and brick [Position:V2(X: 325 Y: 125) bVisible:true bCollide:true
+CSurvivalGame::DeInit() - deinitializing Survival Game state
+CSpriteMgr::UnloadAll() - unloading all Sprites
+CObjectManager::DeInit() - deinitializing Object Manager
+CMainMenu::Init() - initializing Main Menu game state
+CSprite::Load() - Loading image font2.bmp
+CSprite::LoadBMP() - Image widht: 512 height: 512 bpp: 24
+CSprite::Load - Finished loading image
+CSpriteMgr::Load() - loaded sprite [font2.bmp] at position 1)
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected not yet implemented command
+CMainMenu::Update() - user selected Quit option in menu
+Breaking main loop (bShouldQuit == true)!
+		..::End of Game Execution::..
+CGame::DeInit() - Deinitializing Game
+-> Unloading Data Files String Table
+-> Unloading Game Text String Table
+-> Unloading System String Table
+-> Deinitializing Sprite Manager
+CSpriteMgr::DeInit() - deinitializing Sprite Manager
+CSpriteMgr::DeInit() - unloading remaining Sprites
+-> Deinitializing Game State Manager
+CMainMenu::DeInit() - deinitializing Intro game state
+CGameStateMgr::DeInit() - Deinitializing Game State Manager
+-> Deinitializing Input
+CKeyboard::DeInit() - Deinitializing Keyboard
+-> Deinitializing Audio
+CAudio::DeInit() - Deinitializing FMOD Audio
+->Deinitializing Game Window
+CWindow::DeInit() - Rendering Context Released
+CWindow::DeInit() - Device Context Released
+CWindow::DeInit() - HWND Released!
+CWindow::DeInit() - Restoring previous display mode...
+CWindow::DeInit() - Deinitialization Successful
+[Log file closed at: 04/14/07 17:25:51]

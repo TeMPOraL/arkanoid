@@ -1,0 +1,27 @@
+History report about Arkanoid
+
+! - Spotted Bugs
+# - Corrected Bugs
+* - New Ideas
+^ - Various Informations
+
+
+
+
+
+Version 08. Alpha 2.
+	Second Playable version; Alpha 1 didn`t have sounds.
+
+	^Added Sounds and Music (got to find a better one than that from Windows Pinball :) )
+	#Corrected bugs causing first sound and first music not to play/stop because of incorrect handle
+	#Done few changes in Ball object so that ball particles do not stay after the end of the game.
+	
+	*I`m thinking about a map format, with it`s own String Table containing overriding strings and i.e.
+	path to some files (overriding).
+
+	^I feel not so good when looking at the Object Manager... got the feeling that I`ve missed some serious
+	memory leaks...
+
+	!Ball when flying down the screen can blow everythig up without stopping.
+
+	*Background :)
